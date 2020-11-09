@@ -11,7 +11,7 @@ namespace ParallelTest
         private static void Main(string[] args)
         {
             int sum = 0;
-            for (int i = 0; i < 100000; i++)
+            for (int i = 0; i < 1_000_000; i++)
             {
                 sum += i;
             }
